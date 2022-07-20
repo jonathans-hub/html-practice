@@ -1,0 +1,138 @@
+body{
+	background-color: #e3f1fa;
+
+}
+.form{
+	width: 650px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: blue;
+}
+.input1{
+	border: 1px solid #d1d1d1;
+	background-color: white;
+	border-radius: 10px;
+	min-height: 80px;
+	padding: 20px 20px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	font-size: 18px;
+	font-weight:bold;
+
+}
+#input-edit{
+	width: 300px;
+	border-top: hidden;
+	border-left: hidden;
+	border-right: hidden;
+	border-color: #d1d1d1;	
+}
+
+#input-edit:focus{
+	outline:none;
+}
+
+.bluespace{
+	height: 10px;
+	background-color: rgb(66 133 244);
+	border-bottom: blue;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.intro{
+	border: 1px solid #d1d1d1;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 15px;
+
+}
+h1{
+	font-weight:700;
+}
+.inside-intro{
+	padding: 0px 20px;
+}
+.intro-bottom{
+	border-top: 1px solid #d1d1d1;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#asterisks{
+	color: red;
+}
+.list11{
+  padding-left:0px !important;
+}
+.laststatement{
+ display: inline-flex;
+ display: flex;
+ justify-content: center;
+ font-size: 14px;
+}
+ul{
+	list-style-type: none;
+	 padding-left:0px
+}
+
+ul li{
+	display: inline;
+}
+h3{
+	text-align: center;
+}
+.secondline{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.recaptcha{
+	margin: 0 auto;
+ 	width: 120px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+}
+.recaptcha-info{
+	font-size: 12px;
+	padding-left: 5px;
+	line-height: 5px;
+}
+.bar{
+	height: 10px;
+	background-color: green;
+	width: 160px;
+	border-radius: 20px;
+}
+.ending{
+	color: white;
+	background-color: blue;
+	border: 1px solid blue;
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+}
+#clear-button{
+	border: 1px solid #e3f1fa;
+	background-color: #e3f1fa;
+	width: 90px;
+	height: 35px;
+	color: blue;
+	font-size: 13px;
+	border-radius: 5px;
+}
+#clear-button:hover{
+	background-color: #cde7f7;
+}
+
+.page-adjuster{
+	width: 240px;
+}
+.page-adjuster{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}

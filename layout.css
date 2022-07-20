@@ -1,0 +1,31 @@
+.firstbox {
+	background-color:#0ccaf5;
+	height: 60px;
+	margin-bottom: 20px;
+}
+.secondbox{
+	background-color:#0ccaf5;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.thirdbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between !important;
+	margin-bottom: 30px;
+}
+.thirdbox div{
+	background-color:#0ccaf5;
+	height: 200px;
+	width: 350px;
+
+}
+.fourthbox{
+	background-color:#0ccaf5;
+	height: 80px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1200px;
+}
